@@ -3,10 +3,6 @@ LLM Cocktail 테스트용 샘플 앱
 ------------------------------
 3개의 서로 다른 LLM API를 사용해 간단한 문서 처리 파이프라인을 구현한다.
 
-1) OpenAI gpt-4o-mini      -> 문서 분류 (classification)
-2) Anthropic claude-3-5-sonnet-20241022 -> 요약/추출 (summarization)
-3) Google Gemini gemini-1.5-flash       -> 질의응답 (RAG-style QA)
-
 이 스크립트는 LLM Cocktail의 "코드 자동 감지" 기능을 테스트하기 위한 용도로,
 실제 서비스 로직이 아니라 각 API 호출 패턴을 최소한으로 보여주는 예제다.
 
